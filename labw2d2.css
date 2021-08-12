@@ -1,0 +1,139 @@
+.container {
+  display: flex; 
+  justify-content: space-between;
+  border: 2px solid gray;
+  height: 80px;
+  margin:0;
+  padding: 40px 200px;
+  position: sticky;
+  top: 0;
+  background-color:rgba(238, 228, 252, 0.3);
+}
+.home button{
+  background-color:rgb(44, 43, 43);
+  color: white;
+  padding:30px 50px ;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+.home button:hover {
+  background-color: white;
+  color:black;
+  transition: 0.4s;
+}
+.aboutus button{
+  background-color:rgb(44, 43, 43);
+  color: white;
+  padding:30px 50px ;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+.aboutus button:hover {
+  background-color: white;
+  color:black;
+  transition: 0.4s;
+}
+.teams button{
+  background-color:rgb(44, 43, 43);
+  color: white;
+  padding:30px 50px ;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+.teams button:hover {
+  background-color: white;
+  color:black;
+  transition: 0.4s;
+}
+.contact button{
+  background-color:orangered;
+  color:white;
+  padding:30px 50px ;
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+.contact button:hover {
+  background-color: rgb(243, 214, 157);
+  color:black;
+  transition: 0.4s;
+}
+h1{
+  font-family:"BradleyHand", "cursive";
+    font-size: 60px;
+    padding-bottom: 10px;
+    text-align:center;
+    position: relative;
+    margin: 20 0;
+    letter-spacing: 5px;
+}
+.team{
+  display:flex;
+  justify-content: space-between;
+  border:2px solid black;
+  height: 450px;
+}
+img{
+  border: 2px solid rgb(118, 58, 230);
+  border-radius:50% ;
+  margin: 45px;
+  background-color: black;
+}
+.itadori{
+  border:1px solid black;
+  width: 260px;
+  height: 360px;
+  margin: 40px 0 40px 20px;
+}
+.fushiguro{
+  border:1px solid black;
+  width: 260px;
+  height: 360px;
+  margin: 40px 0;
+}
+.nobara{
+  border:1px solid black;
+  width: 260px;
+  height: 360px;
+  margin: 40px 0;
+}
+.gojo{
+  border:1px solid black;
+  width: 260px;
+  height: 360px;
+  margin: 40px 20px 40px 0 ;
+}
+h2{
+  margin: 0 0 0 70px;
+  font-family:"Andale Mono","monospace";
+  background: linear-gradient(transparent 20%, rgb(138, 107, 136) 50%);
+}
+h3{
+  margin: 40px 0;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 70px;
+}
+.itadori p{
+  margin: 20px 0 0 20px;
+  overflow: scroll;
+  height: 45px;
+}
+.fushiguro p{
+  margin: 20px 0 0 20px;
+  overflow: scroll; 
+  height: 45px;
+}
+.nobara p{
+  margin: 20px 0 0 45px;
+  overflow: scroll;
+  height: 45px;
+}
+.gojo p{
+  margin: 20px 0 0 50px;
+  overflow: scroll;
+  height: 45px;
+}

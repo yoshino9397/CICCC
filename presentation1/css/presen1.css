@@ -1,0 +1,458 @@
+body {
+  display: block;
+  margin:0px;
+}
+
+.bgpic{
+  /*位置の設定*/
+  width: 100%;
+  height: 74.5%;
+  position: absolute;
+
+  /*背景画像の設定*/
+  background-image: url(/Users/sam/Desktop/article.html/presentation1/pic/bg.JPG);
+  background-size:cover;
+
+  /*透過の設定*/
+  opacity: 0.5;
+  filter: brightness(70%);
+}
+
+h1{
+    font-family:"BradleyHand", "cursive";
+    font-size: 100px;
+    padding-bottom: 10px;
+    text-align:center;
+    position: relative;
+    margin: 30px 70px 10px 0;
+    letter-spacing: 5px;
+}
+
+.container {
+  display: flex; 
+  justify-content: space-between;
+  
+}
+.mountain{
+  text-align :center;
+  width: 31%; 
+  margin-left: -8px;
+  margin-right: 5px;
+}
+.sea{
+  text-align :center;
+  width: 31%; 
+  margin-right: 5px;
+}
+.city{
+  text-align :center;
+  width: 31%; 
+  margin-right: 5px;
+}
+.food{
+  text-align :center;
+  width: 31%; 
+  margin-right: 0px;
+}
+/*写真横並べ終了*/
+
+.mountain:hover {
+  filter: brightness(70%);
+}
+.sea:hover {
+  filter: brightness(70%);
+}
+.city:hover {
+  filter: brightness(70%);
+}
+.food:hover {
+  filter: brightness(70%);
+}
+/*カーソルで暗く*/
+
+h2{
+  font-family:"Courier New","monospace";
+    font-size: 40px;
+    color:rgb(31, 48, 40);
+    font-weight:bold;
+    padding-top: 30px;
+    padding-bottom: 0;
+   text-indent:2rem;
+    position: relative;
+    margin: 70px 0 10px 0; 
+}
+
+.explain{
+  height: 390px;
+ background-color:cornsilk;
+ margin: 0 -6px;
+ padding: 0;
+}
+
+.explain p{
+    width: 90%;
+    line-height: 2;
+    display: inline-block;
+    position: relative;
+    z-index: 999;
+    margin:10px 0 0 30px;
+    color:black;
+    letter-spacing: 1px;
+}
+
+.p1{
+  font-size: 20px;
+}
+.p2{
+  font-size: 20px;
+}
+/*Vietnamについて*/
+
+
+.mountain {
+  position: relative;
+  }
+
+  .mountain p {
+  position: absolute;
+  top: 45%;
+  left: 26%;
+  margin:0;
+  padding:0;
+  color: white;
+  font-weight: bold; 
+  font-size: 25px;
+  font-family :Quicksand, sans-serif;
+  }
+
+ .mountain img {
+    width: 100%;
+    }
+
+.sea {
+      position: relative;
+      }
+    
+    .sea p {
+      position: absolute;
+      top: 45%;
+      left: 42%;
+      margin:0;
+      padding:0;
+      color: white;
+      font-weight: bold; 
+      font-size: 25px;
+      font-family :Quicksand, sans-serif;
+      }
+    
+    .sea img {
+        width: 100%;
+        }
+
+.city{
+    position: relative;
+     }
+        
+  .city p {
+   position: absolute;
+   top: 45%;
+   left: 40%;
+   margin:0;
+   padding:0;
+  color: white;
+  font-weight: bold; 
+  font-size: 25px;
+  font-family :Quicksand, sans-serif;
+    }
+        
+  .city img {
+    width: 100%;
+    }
+    
+.food {
+      position: relative;
+      }
+    
+  .food p {
+      position: absolute;
+      top: 45%;
+      left: 35%;
+      margin:0;
+      padding:0;
+      color: white;
+      font-weight: bold; 
+      font-size: 25px;
+      font-family :Quicksand, sans-serif;
+      }
+    
+  .food img {
+        width: 100%;
+        }
+
+a{
+  text-decoration:none;
+  color: #fff;
+}
+a:hover {
+  color:paleturquoise;
+  font-size: 28px;
+  transition:.4s;	
+}
+/*バーの白文字*/
+
+.para1title h2{
+    font-family: 'Bradley Hand',sans-serif;
+    color: black;
+    font-size: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+    position: relative;
+    margin:0;
+    letter-spacing: 3px;
+    background-color: rgb(156, 172, 124,0.8);
+    
+}
+
+.para1{
+  display: flex; 
+  justify-content: space-between;
+  background-color:rgb(198, 211, 170,0.8);
+}
+.para1 p{
+  font-size: 23px;
+  width: 50%;
+  margin: 50px 0 0 20px;
+  padding: 0;
+}
+.para1 p::first-letter{
+  font-size: 40px;
+}
+.span1 {
+  background-color:darkgrey;
+}
+
+.para2title h2{
+  font-family: 'Bradley Hand',sans-serif;
+  color: black;
+  font-size: 100px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-top: 10px;
+  text-align:right;
+  position: relative;
+  margin: 0;
+  letter-spacing: 5px;
+  background-color: rgb(134, 158, 177,0.8);
+}
+.para2{
+display: flex; 
+justify-content: space-between;
+background-color: rgb(192, 214, 233,0.8);
+}
+      
+.para2 p{
+font-size: 23px;
+width: 50%;
+margin: 60px 0 0 20px;
+padding: 0;
+}
+.para2 p::first-letter{
+  font-size: 40px;
+}
+.span2 {
+  background-color:darkgrey;
+}
+
+.para3title h2{
+  font-family: 'Bradley Hand',sans-serif;
+  color: black;
+  font-size: 100px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align:left;
+  position: relative;
+  margin: 0;
+  letter-spacing: 3px;
+  background-color: rgba(113, 98, 129, 0.5);
+}
+.para3{
+display: flex; 
+justify-content: space-between;
+background-color: rgb(186, 157, 212,0.5);
+}     
+.para3 p{
+font-size: 23px;
+width: 50%;
+margin: 45px 0 0 20px;
+padding: 0;
+}
+.para3 p::first-letter{
+  font-size: 40px;
+}
+.span3 {
+  background-color:darkgrey;
+}
+
+.para4title h2{
+  font-family: 'Bradley Hand',sans-serif;
+  color: black;
+  font-size: 100px;
+  padding-bottom: 8px;
+  padding-right: 40px;
+  padding-top: 8px;
+  text-align: right;
+  position: relative;
+  margin:0;
+  letter-spacing: 3px;
+  background-color:rgba(122, 85, 85, 0.5);
+}
+
+.para4{
+display: flex; 
+justify-content: space-between;
+background-color:rgb(201, 147, 147,0.5);
+}
+      
+.para4 p{
+font-size: 22px;
+width: 45%;
+margin: 15px 15px 0 20px;
+padding: 0;
+}
+.para4 p::first-letter{
+  font-size: 40px;
+}
+.span4 {
+  background-color:darkgrey;
+}
+
+/*paraの画像と文の並び*/
+
+.hr1{
+  margin-top:0;
+  border: 3px solid black;
+}
+.hr2{
+  border-top: 2px dashed black;
+  margin: 9px 0 0 0;
+}
+.hr4{
+  margin:0;
+  padding: 0;
+  border: 2px solid rgb(80, 78, 78);
+}
+
+/*hrの設定*/
+
+h3{
+  font-family:"Avenir","sans-serif";
+    font-size: 30px;
+    color: black;
+    font-weight:normal;
+    padding-top: 10px;
+    padding-bottom: 0;
+    position: relative;
+    margin:30px 0 0 20px; 
+}
+
+.contact{
+  display: flex;
+  justify-content:space-between;
+  }
+
+.contactp{
+  font-family:"Avenir","sans-serif";
+  font-size: 20px;
+  color: black;
+  font-weight:normal;
+  padding:0;
+  padding-bottom: 10px;
+  position: relative;
+  margin:20px 0 20px 30px; 
+  width: 20%;
+}
+.contactlink{
+  width: 100%;
+  position: relative;
+  margin: 40px 500px 0 0;
+  padding: 0;
+}
+.gray{
+  background-color: rgb(165, 162, 162,0.5);
+height: 200px;
+}
+
+/*contact設定*/
+
+.flowbtn11{
+  font-family:'Verdana',sans-serif;	
+  border-radius:4px;
+  position:relative;
+  display:inline-block;
+  width:18%;
+  height: 40px;
+  font-size:20px;
+  color:#fff!important;
+  text-decoration:none;
+  margin-bottom:5px;
+  margin-left: 30px;
+  }
+  /* Instagram紫グラデ背景色 */
+  .insta_btn11{
+  background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  overflow:hidden;
+  }
+  /* Instagramオレンジグラデ背景色 */
+  .insta_btn11:before{
+  content: '';
+  position:absolute;
+  top:22px;
+  left:-30px;
+  width:100%;
+  height:100%;
+  background:-webkit-radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 45%, rgba(255, 88, 96, 0) 80%);
+  background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 80%);
+  }
+  .flowbtn11:hover span{
+    color:rgb(172, 235, 240);
+    -webkit-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+    text-decoration:none;
+    }
+    /* ボタン内テキスト調整 */
+    .flowbtn11 span{
+    font-size:16px;	
+    position:relative;
+    left:40px;
+    top: 5px;
+    transition:.6s;	
+    display:inline-block;	
+    }
+  
+  /*インスタアイコン設定*/  
+
+.pagetop a{
+      text-decoration:none;
+      color: black;
+    }
+.pagetop p{
+  font-family: 'Bradley Hand',sans-serif;
+  font-size:40px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 30px;
+  margin:0;
+}
+.pagetop a:hover{
+  transition: .3s;
+}
+.pagetop{
+  background-color:rgb(165, 162, 162,0.5) ;
+}
+/*TOPボタン作成*/
+
